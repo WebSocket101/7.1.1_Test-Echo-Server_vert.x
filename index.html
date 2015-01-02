@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+	<title>WebSocket Echo-Test (Vert.x)</title>
+</head>
+<body>
+	<h1>Vert.x</h1>
+	<p> WebSockets: <span id="count"></span></p>
+</body>
+<script type="text/javascript">	
+  var count = document.getElementById("count");
+  var ws = new WebSocket ("ws://"+window.location.host+"/watch");
+  ws.onmessage = function(evt){
+    count.innerHTML = evt.data;
+  }
+</script>
+</html>
