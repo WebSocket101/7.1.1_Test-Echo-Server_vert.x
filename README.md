@@ -5,7 +5,7 @@ Test-Echo-Server implemented for performance testing implemented in vert.x
 
 # Deployment
 ```bash
-vertx run vertx_EchoServer.js
+vertx run vertx_echoServer.js
 ```
 
 
