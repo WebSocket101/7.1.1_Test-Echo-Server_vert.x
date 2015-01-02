@@ -1,0 +1,8 @@
+# Test-Echo-Server vert.x
+Test-Echo-Server implemented for performance testing implemented in vert.x
+# Dependencies 
+* Vertx: http://vertx.io/
+# Deployment
+vertx run vertx_EchoServer.js
+
+
